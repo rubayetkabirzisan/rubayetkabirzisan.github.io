@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { profile, interests, education, projects, skills } from './data/portfolio.js'
+import { profile, interests, education, projects, skills, publications } from './data/portfolio.js'
 
 function Nav() {
   return (
@@ -9,6 +9,7 @@ function Nav() {
         <ul className="nav-links">
           <li><a href="#interests">Interests</a></li>
           <li><a href="#education">Education</a></li>
+          <li><a href="#publications">Publications</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
         </ul>
@@ -21,9 +22,12 @@ function Hero() {
   return (
     <div className="hero">
       <div className="hero-label">Academic Portfolio</div>
-      <h1>{profile.fullName.split(' ')[0]} <em>{profile.fullName.split(' ').slice(1).join(' ')}</em></h1>
+      <h1>
+        {profile.fullName.split(' ').slice(0, -1).join(' ')}{' '}
+        <em>{profile.fullName.split(' ').slice(-1)}</em>
+      </h1>
       <p className="hero-meta">
-        {profile.degree} · {profile.institution} · {profile.graduationYear}
+        {profile.degree} · {profile.institution} · {profile.graduationDate}
       </p>
       <p className="hero-statement">{profile.researchStatement}</p>
       <div className="hero-links">
@@ -73,6 +77,33 @@ function Education() {
   )
 }
 
+function Publications() {
+  if (!publications || publications.length === 0) return null
+  return (
+    <section id="publications">
+      <div className="section-header">
+        <span className="section-number">§03</span>
+        <span className="section-title">Publications</span>
+      </div>
+      <div className="pub-list">
+        {publications.map((pub, i) => (
+          <div key={i} className="pub-entry">
+            <div className="pub-top">
+              <p className="pub-title">{pub.title}</p>
+              <span className={`pub-status ${pub.status === 'Accepted' ? 'accepted' : 'progress'}`}>
+                {pub.status}
+              </span>
+            </div>
+            <p className="pub-venue">
+              {pub.conference || pub.journal} · {pub.year}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
 function ProjectCard({ project }) {
   const ref = useRef(null)
 
@@ -96,11 +127,15 @@ function ProjectCard({ project }) {
         <h3 className="project-title">{project.title}</h3>
         <span className="project-year">{project.year}</span>
       </div>
-      <p className="project-course">{project.course}</p>
+      {project.course && (
+        <p className="project-course">{project.course}</p>
+      )}
       <p className="project-desc">{project.description}</p>
-      <ul className="project-highlights">
-        {project.highlights.map((h, i) => <li key={i}>{h}</li>)}
-      </ul>
+      {project.highlights && project.highlights.length > 0 && (
+        <ul className="project-highlights">
+          {project.highlights.map((h, i) => <li key={i}>{h}</li>)}
+        </ul>
+      )}
       <div className="project-tags">
         {project.tags.map((t) => <span key={t} className="project-tag">{t}</span>)}
       </div>
@@ -112,8 +147,8 @@ function Projects() {
   return (
     <section id="projects">
       <div className="section-header">
-        <span className="section-number">§03</span>
-        <span className="section-title">Academic Projects</span>
+        <span className="section-number">§04</span>
+        <span className="section-title">Projects</span>
       </div>
       {projects.map((p, i) => <ProjectCard key={i} project={p} />)}
     </section>
@@ -124,7 +159,7 @@ function Skills() {
   return (
     <section id="skills">
       <div className="section-header">
-        <span className="section-number">§04</span>
+        <span className="section-number">§05</span>
         <span className="section-title">Technical Skills</span>
       </div>
       <div className="skills-grid">
@@ -159,6 +194,7 @@ export default function App() {
         <Hero />
         <Interests />
         <Education />
+        <Publications />
         <Projects />
         <Skills />
         <Footer />
