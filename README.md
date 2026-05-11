@@ -1,5 +1,6 @@
 # Hi there, I'm Md. Rubaet Kabir Zishan 👋
 
+**Software Engineering Intern** — Aurify *(Remote, Chicago, Illinois, US | Aug 2025 – Apr 2026)*
 I'm a **final-year Computer Science & Engineering student** at the Military Institute of Science and Technology (MIST), Bangladesh. I build full-stack web applications, design ML pipelines, and write end-to-end tests — currently gaining hands-on industry experience as a Software Engineering Intern at an AI startup in Chicago.
 
 ---
@@ -7,7 +8,7 @@ I'm a **final-year Computer Science & Engineering student** at the Military Inst
 ## 🎓 Education
 
 **B.Sc. in Computer Science and Engineering**
-Military Institute of Science and Technology (MIST) *(April 2022 – April 2026)*
+Military Institute of Science and Technology (MIST) *(May 2022 – May 2026)*
 
 *Relevant Coursework:* Data Structures & Algorithms, Database Management Systems, Object Oriented Programming, Software Engineering, Web Technologies, Operating Systems.
 
@@ -15,7 +16,7 @@ Military Institute of Science and Technology (MIST) *(April 2022 – April 2026)
 
 ## 💼 Professional Experience
 
-**Software Engineering Intern** — Aurify AI *(Remote, Chicago, Illinois | Aug 2025 – Apr 2026)*
+**Software Engineering Intern** — Aurify *(Remote, Chicago, Illinois, United States | Aug 2025 – Apr 2026)*
 
 - Worked across the stack on a Node.js / React SaaS platform — picked up tasks, reproduced bugs, traced root causes, and helped ship fixes.
 - Tested REST API contracts via Postman, validating HTTP methods, status codes, headers, and response payloads across multiple release cycles.
@@ -71,5 +72,3 @@ I've solved **300+ problems** across DSA topics on competitive programming platf
 
 [![Email](https://img.shields.io/badge/Email-rubayetkabirz%40gmail.com-red?style=flat&logo=gmail)](mailto:rubayetkabirz@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rubaet%20Kabir%20Zishan-blue?style=flat&logo=linkedin)](https://linkedin.com/in/rubaet-kabir-zishan)
-[![GitHub](https://img.shields.io/badge/GitHub-rubayetkabirzisan-black?style=flat&logo=github)](https://github.com/rubayetkabirzisan)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=flat&logo=github)](https://rubayetkabirzisan.github.io)
