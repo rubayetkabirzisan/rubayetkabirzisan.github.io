@@ -1,12 +1,12 @@
 # Md. Rubaet Kabir Zishan
 
-Final-year CSE student at MIST, Bangladesh. Currently interning as a Software Engineering Intern at Aurify (remote, Chicago) — working across a Node.js / React SaaS platform, building Playwright E2E test suites, and testing REST APIs. I write code, break things on purpose, and fix what I find.
+Final-year CSE student at MIST, Bangladesh. Currently interning as a Software Engineering Intern at Aurify (Remote, Chicago) — working across a Node.js / React SaaS platform, building Playwright E2E test suites, and testing REST APIs. I write code, break things on purpose, and fix what I find.
 
 ---
 
 ## Experience
 
-**Software Engineering Intern — Aurify** *(Remote, Chicago, IL · Aug 2025 – Apr 2026)*
+**Software Engineering Intern — Aurify** *(Remote, Chicago, Illinois, United States · Aug 2025 – Apr 2026)*
 
 Worked across the stack on a Node.js / React SaaS platform. Reproduced and traced bugs, helped ship fixes, and validated REST API contracts via Postman across multiple release cycles. Built and maintained Playwright / TypeScript E2E suites using Page Object Model — logged 30+ defects in JIRA with reproduction steps and severity ratings.
 
