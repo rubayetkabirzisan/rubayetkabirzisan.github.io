@@ -1,6 +1,6 @@
 # Md. Rubaet Kabir Zishan
 
-Final-year CSE student at MIST, Bangladesh. Currently interning as a Software Engineering Intern at Aurify (Remote, Chicago) — working across a Node.js / React SaaS platform, building Playwright E2E test suites, and testing REST APIs. I write code, break things on purpose, and fix what I find.
+Final year CSE student at MIST. Worked as a Software Engineering Intern at Aurify (Remote, Chicago) — working across a Node.js / React SaaS platform, building Playwright E2E test suites, and testing REST APIs. I write code, break things on purpose, and fix what I find.
 
 ---
 
@@ -15,13 +15,13 @@ Worked across the stack on a Node.js / React SaaS platform. Reproduced and trace
 ## Projects
 
 **Churn Sentinel** `Python · FastAPI · XGBoost · SHAP · LangChain · Groq · Streamlit`
-Churn prediction pipeline with XGBoost and SHAP that scores customer risk and explains the top drivers per prediction. LangChain multi-agent system (Behavior Detector, Discount Evaluator, Email Generator) auto-generates personalized retention emails via Groq API. Served through FastAPI with a Streamlit dashboard for risk scores and SHAP outputs.
+Churn prediction pipeline with XGBoost and SHAP that scores customer risk and explains the top drivers per prediction. LangChain multi agent system (Behavior Detector, Discount Evaluator, Email Generator) auto generates personalized retention emails via Groq API. Served through FastAPI with a Streamlit dashboard for risk scores and SHAP outputs.
 
 **PetPal** `Node.js · Express.js · MongoDB · REST API`
 Backend for a pet care platform — listings, appointment booking, and caretaker matching via REST API. MVC structure with integration tests covering booking and auth flows.
 
 **Campus Hub** `Next.js · Node.js · PostgreSQL`
-Campus management platform for scheduling, resource booking, and student communication. Raw SQL schema design — joins, subqueries, indexed lookups, no ORM. Role-based access control for students, faculty, and admins.
+Campus management platform for scheduling, resource booking, and student communication. Raw SQL schema design — joins, subqueries, indexed lookups, no ORM. Role based access control for students, faculty, and admins.
 
 ---
 
@@ -29,7 +29,7 @@ Campus management platform for scheduling, resource booking, and student communi
 
 | Area | Technologies |
 |---|---|
-| Languages | Python, JavaScript / TypeScript, SQL, C++ |
+| Languages | Python, JavaScript, SQL, C++ |
 | Frontend | React.js, Next.js, HTML / CSS |
 | Backend | FastAPI, Node.js, Express.js, REST API design |
 | Databases | PostgreSQL, MongoDB |
@@ -52,7 +52,7 @@ Campus management platform for scheduling, resource booking, and student communi
 ## Education
 
 **B.Sc. in Computer Science and Engineering**
-Military Institute of Science and Technology (MIST), Bangladesh *(May 2022 – May 2026)*
+Military Institute of Science and Technology (MIST) *(May 2022 – May 2026)*
 
 Relevant coursework: Data Structures & Algorithms, DBMS, OOP, Software Engineering, Web Technologies, Operating Systems.
 
