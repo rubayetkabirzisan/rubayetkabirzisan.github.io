@@ -1,5 +1,8 @@
 import React, { useEffect, useRef } from 'react'
-import { profile, interests, education, projects, skills, publications } from './data/portfolio.js'
+import {
+  profile, interests, education, researchExperience,
+  projects, skills, publications, competitiveProgramming
+} from './data/portfolio.js'
 
 function Nav() {
   return (
@@ -9,8 +12,10 @@ function Nav() {
         <ul className="nav-links">
           <li><a href="#interests">Interests</a></li>
           <li><a href="#education">Education</a></li>
+          <li><a href="#research">Research</a></li>
           <li><a href="#publications">Publications</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#competitive">CP</a></li>
           <li><a href="#skills">Skills</a></li>
         </ul>
       </div>
@@ -77,26 +82,66 @@ function Education() {
   )
 }
 
+function ResearchExperience() {
+  return (
+    <section id="research">
+      <div className="section-header">
+        <span className="section-number">§03</span>
+        <span className="section-title">Research Experience</span>
+      </div>
+      {researchExperience.map((exp, i) => (
+        <div key={i} className="research-entry">
+          <div className="research-top">
+            <div>
+              <p className="research-role">{exp.role}</p>
+              <p className="research-institution">{exp.institution}</p>
+            </div>
+            <span className="research-period">{exp.period}</span>
+          </div>
+          <div className="research-supervisor">
+            <span className="supervisor-label">Supervisor —</span>
+            <span className="supervisor-name">{exp.supervisor}</span>
+            <span className="supervisor-title">{exp.supervisorTitle}</span>
+            <a href={`mailto:${exp.supervisorEmail}`} className="supervisor-email">{exp.supervisorEmail}</a>
+          </div>
+          <p className="research-desc">{exp.description}</p>
+          <ul className="project-highlights">
+            {exp.highlights.map((h, j) => <li key={j}>{h}</li>)}
+          </ul>
+        </div>
+      ))}
+    </section>
+  )
+}
+
 function Publications() {
   if (!publications || publications.length === 0) return null
   return (
     <section id="publications">
       <div className="section-header">
-        <span className="section-number">§03</span>
+        <span className="section-number">§04</span>
         <span className="section-title">Publications</span>
       </div>
       <div className="pub-list">
         {publications.map((pub, i) => (
           <div key={i} className="pub-entry">
             <div className="pub-top">
-              <p className="pub-title">{pub.title}</p>
-              <span className={`pub-status ${pub.status === 'Accepted' ? 'accepted' : 'progress'}`}>
+              <p className="pub-title">
+                {pub.link
+                  ? <a href={pub.link} target="_blank" rel="noreferrer">{pub.title}</a>
+                  : pub.title
+                }
+              </p>
+              <span className={`pub-status ${pub.status === 'Published' ? 'published' : pub.status === 'Accepted' ? 'accepted' : 'progress'}`}>
                 {pub.status}
               </span>
             </div>
             <p className="pub-venue">
               {pub.conference || pub.journal} · {pub.year}
             </p>
+            {pub.description && (
+              <p className="pub-desc">{pub.description}</p>
+            )}
           </div>
         ))}
       </div>
@@ -106,7 +151,6 @@ function Publications() {
 
 function ProjectCard({ project }) {
   const ref = useRef(null)
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -125,11 +169,15 @@ function ProjectCard({ project }) {
     <div className="project-entry" ref={ref}>
       <div className="project-top">
         <h3 className="project-title">{project.title}</h3>
-        <span className="project-year">{project.year}</span>
+        <div className="project-meta">
+          <span className="project-year">{project.year}</span>
+          {project.github && (
+            <a href={project.github} target="_blank" rel="noreferrer" className="project-github">
+              ↗ GitHub
+            </a>
+          )}
+        </div>
       </div>
-      {project.course && (
-        <p className="project-course">{project.course}</p>
-      )}
       <p className="project-desc">{project.description}</p>
       {project.highlights && project.highlights.length > 0 && (
         <ul className="project-highlights">
@@ -147,10 +195,37 @@ function Projects() {
   return (
     <section id="projects">
       <div className="section-header">
-        <span className="section-number">§04</span>
-        <span className="section-title">Projects</span>
+        <span className="section-number">§05</span>
+        <span className="section-title">Research & Technical Projects</span>
       </div>
       {projects.map((p, i) => <ProjectCard key={i} project={p} />)}
+    </section>
+  )
+}
+
+function CompetitiveProgramming() {
+  const cp = competitiveProgramming
+  return (
+    <section id="competitive">
+      <div className="section-header">
+        <span className="section-number">§06</span>
+        <span className="section-title">Competitive Programming</span>
+      </div>
+      <div className="cp-wrapper">
+        <div className="cp-profiles">
+          {cp.profiles.map((p) => (
+            <a key={p.platform} href={p.url} target="_blank" rel="noreferrer" className="cp-profile-link">
+              <span className="cp-platform">{p.platform}</span>
+              <span className="cp-handle">{p.handle}</span>
+            </a>
+          ))}
+          <div className="cp-stat">
+            <span className="cp-stat-number">{cp.totalSolved}</span>
+            <span className="cp-stat-label">problems solved</span>
+          </div>
+        </div>
+        <p className="cp-note">{cp.note}</p>
+      </div>
     </section>
   )
 }
@@ -159,7 +234,7 @@ function Skills() {
   return (
     <section id="skills">
       <div className="section-header">
-        <span className="section-number">§05</span>
+        <span className="section-number">§07</span>
         <span className="section-title">Technical Skills</span>
       </div>
       <div className="skills-grid">
@@ -194,8 +269,10 @@ export default function App() {
         <Hero />
         <Interests />
         <Education />
+        <ResearchExperience />
         <Publications />
         <Projects />
+        <CompetitiveProgramming />
         <Skills />
         <Footer />
       </div>
