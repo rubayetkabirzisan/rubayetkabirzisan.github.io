@@ -15,14 +15,11 @@ export const profile = {
 export const interests = [
   "Applied Machine Learning",
   "Explainable AI (XAI)",
+  "Generative AI (GenAI)",
   "Natural Language Processing",
-  "Bayesian Inference & Probabilistic Modeling",
-  "Large Language Models & Fine-tuning",
   "Agentic AI & Multi-Agent Systems",
   "Reinforcement Learning",
-  "AI for Environmental & Health Sciences",
-  "IoT & Embedded Intelligence",
-  "Software Quality Engineering",
+  "AI Security & Cybersecurity",
 ]
 
 export const education = [
