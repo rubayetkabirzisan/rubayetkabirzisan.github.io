@@ -8,7 +8,6 @@ export const profile = {
   email: "rubayetkabirz@gmail.com",
   github: "https://github.com/rubayetkabirzisan",
   linkedin: "https://linkedin.com/in/rubaet-kabir-zishan",
-  google_scholar: "https://scholar.google.com/citations?user=JlmQxnAAAAAJ&hl=en",
   researchStatement: `Final-year Computer Science researcher at MIST with peer-reviewed IEEE publications and hands-on research spanning applied machine learning, Bayesian probabilistic modeling, environmental data science, and transformer-based NLP. Seeking fully funded graduate research positions (MS/PhD) in AI, ML, and interdisciplinary computational science where rigorous methodology, explainability, and real-world impact converge.`,
 }
 
@@ -32,7 +31,8 @@ export const education = [
     highlights: [
       "Thesis: Bengali Natural Language Processing via Fine-Tuned T5 Transformer Models — investigating low-resource NLP adaptation using sequence-to-sequence pre-training and domain-specific fine-tuning strategies.",
       "Relevant Coursework: Artificial Intelligence, Machine Learning, Software Engineering, Computer Networks, Algorithms & Complexity, Database Systems, Probability & Statistics, Digital Signal Processing",
-      "Two peer-reviewed IEEE publications accepted prior to graduation; active research under supervision of a globally recognized Top 2% Scientist (Stanford–Elsevier, 2022–2025).",
+      "Two peer-reviewed IEEE publications accepted prior to graduation." ,
+      "Active research under supervision of a globally recognized Top 2 % Scientist(Stanford–Elsevier, 2022–2025).",
     ],
   },
 ]
@@ -45,7 +45,7 @@ export const researchExperience = [
     supervisorEmail: "nazrul@cse.mist.ac.bd",
     institution: "Dept. of Computer Science & Engineering, MIST",
     period: "2025 — Present",
-    description: "Conducting thesis research on Bengali NLP via Fine-Tuned T5 Transformer Models under direct supervision of Dr. Islam, whose lab has produced 69+ refereed journal articles (Q1/Q2), 173+ international conference papers, and research grants exceeding USD 250,000.",
+    description: "Conducting thesis research on Bangla↔Chakma Neural Machine Translation via Fine-Tuned T5 Models under direct supervision of Dr. Islam, whose lab has produced 69+ refereed journal articles (Q1/Q2), 173+ international conference papers, and research grants exceeding USD 250,000.",
     highlights: [
       "Co-authored two IEEE-indexed conference papers accepted prior to undergraduate graduation — Automated Door Lock System Using Face Recognition (IEEE QPAIN, 2025, Published) and Development of a Sustainable Integrated Agricultural IoT System (IEEE WIECON, 2025, Accepted).",
       "Collaborating within an active research group on applied ML, NLP, bioinformatics, and human-computer interaction.",
@@ -72,16 +72,30 @@ export const publications = [
     description: "Presents a sensor-fused IoT architecture for real-time agricultural monitoring integrating environmental sensing, edge processing, and cloud-based data pipelines to support precision farming in agrarian economies.",
   },
   {
-    title: "Bengali NLP via Fine-Tuned T5 Transformer Models",
+    title: "Bangla to Chakma Neural Machine Translation via Fine-Tuned T5",
     journal: "Undergraduate Thesis — Target Journal Submission",
     year: "2026",
     status: "In Progress",
     link: null,
-    description: "Investigates transfer learning strategies for low-resource Bengali text processing using the T5 architecture. Focuses on tokenization strategies for morphologically rich scripts and benchmark evaluation on summarization and classification tasks.",
+    description: "Fine-tuning a T5-based seq2seq model for bidirectional Chakma↔Bengali translation targeting two linguistically distinct low-resource languages. Includes task-specific fine-tuning protocols, BLEU/chrF evaluation against transformer baselines, and web-application deployment for real-world accessibility.",
   },
 ]
 
 export const projects = [
+  {
+    title: "Bangla to Chakma Neural Machine Translation — Undergraduate Thesis",
+    year: "2025–2026",
+    github: null,
+    tags: ["T5 Transformer", "PyTorch", "Hugging Face", "NLP", "Low-Resource NLP", "Seq2Seq"],
+    status: "Undergraduate Thesis — In Progress",
+    description: "Fine-tuning a T5-based sequence-to-sequence model for bidirectional Chakma↔Bengali translation — targeting two linguistically distinct low-resource languages with extremely limited parallel corpora. Contributes to the agenda of equitable multilingual NLP for indigenous and minority languages.",
+    highlights: [
+      "Fine-tuning a Bengali T5 model for bidirectional Chakma↔Bengali translation, addressing two linguistically distinct low-resource languages with limited parallel corpora — a significant challenge in low-resource neural machine translation.",
+      "Designing task-specific fine-tuning protocols and evaluating translation quality against baseline transformer architectures using BLEU, chrF, and human evaluation metrics.",
+      "Deploying the translation model as an accessible web application to enable real-world usability for Chakma speakers and validate end-to-end system performance.",
+    ],
+  },
+  
   {
     title: "Churn Sentinel — Explainable AI-Powered Customer Retention System",
     year: "2026",
@@ -96,8 +110,21 @@ export const projects = [
     ],
   },
   {
+    title: "SUMO-PPO Adaptive Traffic Signal Control via Reinforcement Learning",
+    year: "2026",
+    github: "https://github.com/rubayetkabirzisan/Sumo-PPO-Traffic-Control",
+    tags: ["Reinforcement Learning", "PPO", "SUMO Simulator", "Python", "Stable-Baselines3", "OpenAI Gym"],
+    description: "A reinforcement learning system for adaptive traffic signal control using Proximal Policy Optimization (PPO) trained inside the SUMO traffic simulation environment. Addresses the combinatorial complexity of real-time intersection management through learned agent policies.",
+    highlights: [
+      "Designed a custom Gym-compatible SUMO environment with normalized state representations (per-lane halting vehicles, phase index) and a composite reward function balancing queue minimization with vehicle throughput.",
+      "Implemented a 4-action policy space (keep / advance / extend / reduce phase) with yellow-phase protection constraints — architecturally enforcing safe agent behavior during signal transitions.",
+      "Trained PPO agent over 200,000 environment steps with EvalCallback-based best-model checkpointing, per-episode CSV logging, and TensorBoard integration for reward curve analysis.",
+      "Demonstrated measurable improvements over the fixed-cycle baseline across queue length reduction and vehicle departure rate metrics.",
+    ],
+  },
+  {
     title: "Genomic Variant Classifier — Pathogenicity Prediction via ML",
-    year: "2025",
+    year: "2026",
     github: "https://github.com/rubayetkabirzisan/Genomic-Variant-Classifier",
     tags: ["Bioinformatics", "Scikit-Learn", "Random Forest", "Python", "Feature Engineering"],
     description: "A machine learning pipeline for classifying genomic single nucleotide variants (SNVs) as benign, pathogenic, or variant of uncertain significance — addressing a core challenge in computational genomics and precision medicine.",
@@ -109,7 +136,7 @@ export const projects = [
   },
   {
     title: "Bayesian Water Quality Analysis — Bangladesh Environmental Study",
-    year: "2025",
+    year: "2026",
     github: "https://github.com/rubayetkabirzisan/Bayesian-Water-Quality-BD",
     tags: ["Bayesian Inference", "PyMC", "Environmental Data Science", "Python", "Geospatial Analysis"],
     description: "A probabilistic modeling study examining water quality contamination patterns across Bangladesh using Bayesian statistical frameworks — directly relevant to public health policy and environmental risk assessment.",
@@ -117,18 +144,6 @@ export const projects = [
       "Applied Bayesian hierarchical models to quantify uncertainty in water quality measurements across geospatially distributed sampling sites.",
       "Developed posterior predictive distributions for contamination thresholds (arsenic, dissolved solids, microbial indicators), enabling probabilistic risk inference.",
       "Research addresses UN SDG-6 (Clean Water & Sanitation) using principled probabilistic methods — relevant to AI for Social Good research agendas.",
-    ],
-  },
-  {
-    title: "Bengali NLP — Fine-Tuning T5 for Low-Resource Sequence Tasks",
-    year: "2025–2026",
-    github: null,
-    tags: ["T5 Transformer", "Hugging Face", "Fine-Tuning", "NLP", "PyTorch", "Low-Resource Languages"],
-    description: "Undergraduate thesis research investigating the adaptation of large pre-trained language models (T5) to Bengali — a morphologically complex, low-resource language with over 230 million speakers. Contributes to the agenda of equitable multilingual NLP.",
-    highlights: [
-      "Designed task-specific fine-tuning protocols for Bengali summarization and classification tasks using the text-to-text T5 framework.",
-      "Benchmarked model performance against baseline transformer architectures, quantifying the transfer learning efficiency gap in low-resource settings.",
-      "Research aligns with active NLP frontiers: multilingual adaptation, low-resource language processing, and LLM efficiency.",
     ],
   },
 ]
@@ -149,5 +164,5 @@ export const skills = {
   "Explainability & Analysis": ["SHAP", "LIME", "Bayesian Inference (PyMC)", "Pandas", "NumPy", "Matplotlib / Seaborn"],
   "Research & Scientific Tools": ["Jupyter Notebook", "MATLAB", "Git / GitHub", "LaTeX / Overleaf"],
   "Software & Engineering": ["React", "Node.js", "Playwright (Test Automation)", "PostgreSQL", "REST APIs"],
-  "Research Domains": ["NLP & Text Mining", "Bioinformatics", "Environmental Data Science", "IoT Systems", "Computer Vision", "Software QA / SDET"],
+  "Research Domains": ["NLP & Text Mining", "Environmental Data Science", "IoT Systems", "Computer Vision", "Software QA / SDET"],
 }
