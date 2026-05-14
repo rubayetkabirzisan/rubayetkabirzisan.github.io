@@ -528,3 +528,214 @@ footer {
   font-style: italic;
   color: var(--ink-faint);
 }
+/* ── Publication status: Published ── */
+.pub-status.published {
+  color: var(--accent);
+  border: 1px solid rgba(139, 58, 42, 0.3);
+  background: rgba(139, 58, 42, 0.05);
+}
+
+.pub-desc {
+  font-size: 0.83rem;
+  color: var(--ink-faint);
+  line-height: 1.65;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* ── Research Experience ── */
+.research-entry {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--paper-rule);
+}
+
+.research-entry:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.research-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.research-role {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.research-institution {
+  font-size: 0.88rem;
+  color: var(--ink-muted);
+  font-style: italic;
+  margin-top: 0.15rem;
+}
+
+.research-period {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+  padding-top: 0.3rem;
+}
+
+.research-supervisor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.6rem;
+  margin-bottom: 0.85rem;
+  padding: 0.6rem 0.9rem;
+  background: var(--paper-warm);
+  border-left: 2px solid var(--paper-rule);
+}
+
+.supervisor-label {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.supervisor-name {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.supervisor-title {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  font-style: italic;
+  flex-basis: 100%;
+  margin-top: 0.1rem;
+}
+
+.supervisor-email {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+}
+
+.research-desc {
+  font-size: 0.92rem;
+  color: var(--ink-muted);
+  line-height: 1.75;
+  margin-bottom: 0.85rem;
+}
+
+/* ── Project GitHub link ── */
+.project-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.project-github {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--accent);
+  padding-bottom: 1px;
+  transition: color 0.15s;
+}
+
+.project-github:hover {
+  color: var(--accent-light);
+  border-color: var(--accent-light);
+}
+
+/* ── Competitive Programming ── */
+.cp-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.cp-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.cp-profile-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--paper-rule);
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all 0.15s;
+  background: var(--paper-warm);
+}
+
+.cp-profile-link:hover {
+  border-color: var(--accent);
+  background: rgba(139, 58, 42, 0.03);
+}
+
+.cp-platform {
+  font-family: var(--font-mono);
+  font-size: 0.63rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.cp-handle {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+}
+
+.cp-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(74, 103, 65, 0.3);
+  background: rgba(74, 103, 65, 0.05);
+  border-radius: 2px;
+}
+
+.cp-stat-number {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--mono);
+  line-height: 1;
+}
+
+.cp-stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.63rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.cp-note {
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  line-height: 1.75;
+  max-width: 640px;
+}
+
+/* ── Responsive additions ── */
+@media (max-width: 600px) {
+  .research-top { flex-direction: column; }
+  .project-meta { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
+  .cp-profiles { gap: 0.5rem; }
+}
