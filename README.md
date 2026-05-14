@@ -1,62 +1,123 @@
 # Md. Rubaet Kabir Zishan
 
-Final year CSE student at MIST. Worked as a Software Engineering Intern at Aurify (Remote, Chicago) — working across a Node.js / React SaaS platform, building Playwright E2E test suites, and testing REST APIs. I write code, break things on purpose, and fix what I find.
+**B.Sc. Candidate, Computer Science & Engineering**
+Military Institute of Science and Technology (MIST), Dhaka, Bangladesh — Expected May 2026
+
+[![Email](https://img.shields.io/badge/rubayetkabirz%40gmail.com-D44638?style=flat&logo=gmail&logoColor=white)](mailto:rubayetkabirz@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rubaet%20Kabir%20Zishan-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rubaet-kabir-zishan)
+
+> Final-year Computer Science researcher with peer-reviewed IEEE publications spanning applied machine learning, Bayesian probabilistic modeling, reinforcement learning, and transformer-based NLP. Seeking fully funded graduate research positions (MS/PhD) in AI, ML, and interdisciplinary computational science.
 
 ---
 
-## Experience
+## Publications
 
-**Software Engineering Intern — Aurify** *(Remote, Chicago, Illinois, United States · Aug 2025 – Apr 2026)*
-
-Worked across the stack on a Node.js / React SaaS platform. Reproduced and traced bugs, helped ship fixes, and validated REST API contracts via Postman across multiple release cycles. Built and maintained Playwright / TypeScript E2E suites using Page Object Model — logged 30+ defects in JIRA with reproduction steps and severity ratings.
-
----
-
-## Projects
-
-**Churn Sentinel** `Python · FastAPI · XGBoost · SHAP · LangChain · Groq · Streamlit`
-Churn prediction pipeline with XGBoost and SHAP that scores customer risk and explains the top drivers per prediction. LangChain multi agent system (Behavior Detector, Discount Evaluator, Email Generator) auto generates personalized retention emails via Groq API. Served through FastAPI with a Streamlit dashboard for risk scores and SHAP outputs.
-
-**PetPal** `Node.js · Express.js · MongoDB · REST API`
-Backend for a pet care platform — listings, appointment booking, and caretaker matching via REST API. MVC structure with integration tests covering booking and auth flows.
-
-**Campus Hub** `Next.js · Node.js · PostgreSQL`
-Campus management platform for scheduling, resource booking, and student communication. Raw SQL schema design — joins, subqueries, indexed lookups, no ORM. Role based access control for students, faculty, and admins.
+| # | Title | Venue | Status |
+|---|-------|--------|--------|
+| 1 | [Automated Door Lock System Using Face Recognition](https://ieeexplore.ieee.org/abstract/document/11172231/) | IEEE QPAIN 2025 | ✅ Published |
+| 2 | Development of a Sustainable Integrated Agricultural IoT System | IEEE WIECON 2025 | 🟡 Accepted |
+| 3 | Bangla ↔ Chakma Neural Machine Translation via Fine-Tuned T5 | Undergraduate Thesis | 🔵 In Progress |
 
 ---
 
-## Skills
+## Research Experience
+
+**Undergraduate Thesis Researcher** *(2025 — Present)*
+Dept. of Computer Science & Engineering, MIST
+
+Supervised by **Lt Col Muhammad Nazrul Islam, PhD** — Associate Professor and Top 2% Scientist globally (Stanford–Elsevier 2022–2025), with 69+ Q1/Q2 journal articles, 173+ international conference papers, and >USD 250,000 in research grants.
+
+- Thesis: Bangla↔Chakma Neural Machine Translation via Fine-Tuned T5 — targeting two low-resource, linguistically distinct languages with limited parallel corpora
+
+---
+
+## Research & Technical Projects
+
+**[Churn Sentinel — Explainable AI Customer Retention System](https://github.com/rubayetkabirzisan/Churn-Sentinel)**
+`Python · XGBoost · SHAP · LangChain · Multi-Agent AI` · *2026*
+
+End-to-end intelligent retention system coupling gradient-boosted ML with SHAP post-hoc explainability and a LangChain multi-agent orchestration layer that translates risk signals into autonomous retention actions.
+
+- XGBoost classifier with hyperparameter optimization and stratified cross-validation for imbalanced churn data
+- SHAP global (beeswarm, bar) and local (force plots, waterfall) explanations for interpretable model auditing
+- Multi-agent pipeline (Behavior Detector → Discount Evaluator → Email Generator) for autonomous personalized outreach
+
+---
+
+**[SUMO-PPO Adaptive Traffic Signal Control](https://github.com/rubayetkabirzisan/Sumo-PPO-Traffic-Control)**
+`Python · PPO · SUMO Simulator · Stable-Baselines3 · OpenAI Gym` · *2026*
+
+Reinforcement learning system for adaptive traffic signal control using Proximal Policy Optimization inside the SUMO traffic simulation environment. Trained over 200,000 steps with composite reward balancing queue minimization and vehicle throughput.
+
+- Custom Gym-compatible SUMO environment with normalized state space and 4-action policy (keep / advance / extend / reduce phase)
+- Yellow-phase protection constraints enforcing safe agent behavior during signal transitions
+- EvalCallback best-model checkpointing, per-episode CSV logging, and TensorBoard reward curve analysis
+
+---
+
+**[Genomic Variant Classifier — Pathogenicity Prediction](https://github.com/rubayetkabirzisan/Genomic-Variant-Classifier)**
+`Python · Scikit-Learn · Random Forest · Bioinformatics` · *2026*
+
+ML pipeline for classifying genomic SNVs as benign, pathogenic, or variant of uncertain significance. Evaluation grounded in ACMG classification standards using precision, recall, F1, and ROC-AUC.
+
+---
+
+**[Bayesian Water Quality Analysis — Bangladesh](https://github.com/rubayetkabirzisan/Bayesian-Water-Quality-BD)**
+`Python · PyMC · Bayesian Inference · Geospatial Analysis` · *2026*
+
+Probabilistic modeling study examining water contamination patterns across Bangladesh using Bayesian hierarchical models. Posterior predictive distributions for arsenic, dissolved solids, and microbial thresholds — addressing UN SDG-6.
+
+---
+
+**Bangla ↔ Chakma Neural Machine Translation** *(Undergraduate Thesis — In Progress)*
+`Python · PyTorch · Hugging Face · T5 · Seq2Seq`
+
+Fine-tuning a T5-based model for bidirectional Chakma↔Bengali translation targeting two linguistically distinct low-resource languages. Includes BLEU/chrF evaluation against transformer baselines and web-app deployment for real-world accessibility.
+
+---
+
+## Professional Experience
+
+**Software Engineering Intern — Aurify** *(Remote, Chicago, IL · Aug 2025 – Apr 2026)*
+
+Worked across a Node.js / React SaaS platform — reproduced and traced bugs, validated REST API contracts via Postman, and shipped fixes across multiple release cycles. Built and maintained Playwright / TypeScript E2E suites using the Page Object Model; logged 30+ defects in JIRA with reproduction steps and severity ratings.
+
+`Node.js · React · Playwright · TypeScript · REST APIs · PostgreSQL · JIRA`
+
+---
+
+## Technical Skills
 
 | Area | Technologies |
-|---|---|
-| Languages | Python, JavaScript, SQL, C++ |
-| Frontend | React.js, Next.js, HTML / CSS |
-| Backend | FastAPI, Node.js, Express.js, REST API design |
-| Databases | PostgreSQL, MongoDB |
-| Testing & QA | Playwright, Postman, JIRA |
-| AI & Automation | LangChain, Groq API, Claude, ChatGPT, Gemini |
-| DevOps | Docker, Git, Linux, CI/CD basics |
+|------|-------------|
+| **ML / Deep Learning** | Scikit-Learn, XGBoost, PyTorch, Hugging Face Transformers, T5/BERT Fine-tuning, LangChain |
+| **Explainability & Analysis** | SHAP, LIME, Bayesian Inference (PyMC), Pandas, NumPy, Matplotlib/Seaborn |
+| **Reinforcement Learning** | PPO (Stable-Baselines3), OpenAI Gym, SUMO |
+| **Programming Languages** | Python, C++, JavaScript, SQL, LaTeX |
+| **Research Tools** | Jupyter, MATLAB, Git/GitHub, LaTeX/Overleaf |
+| **Software & Engineering** | React, Node.js, Playwright, PostgreSQL, REST APIs |
+| **Research Domains** | NLP, Bioinformatics, Environmental Data Science, IoT Systems, Computer Vision |
 
 ---
 
-## Problem Solving
+## Competitive Programming
 
-300+ problems solved across LeetCode, Codeforces, and CodeChef — DSA, edge cases, constraint analysis.
+300+ problems solved across LeetCode, Codeforces, and CodeChef — spanning data structures, graph algorithms, dynamic programming, and greedy methods. Consistent edge-case and failure-scenario analysis.
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=flat&logo=leetcode)](https://leetcode.com/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-Profile-blue?style=flat&logo=codeforces)](https://codeforces.com/)
-[![CodeChef](https://img.shields.io/badge/CodeChef-Profile-brown?style=flat&logo=codechef)](https://www.codechef.com/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-rubayetkabirzisan-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/rubayetkabirzisan/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-mission27-1F8ACB?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/mission27)
+[![CodeChef](https://img.shields.io/badge/CodeChef-rubaet__kabir-5B4638?style=flat&logo=codechef&logoColor=white)](https://www.codechef.com/users/rubaet_kabir)
 
 ---
 
 ## Education
 
-**B.Sc. in Computer Science and Engineering**
-Military Institute of Science and Technology (MIST) *(May 2022 – May 2026)*
+**B.Sc. in Computer Science & Engineering** — MIST, Dhaka *(May 2022 – May 2026)*
 
-Relevant coursework: Data Structures & Algorithms, DBMS, OOP, Software Engineering, Web Technologies, Operating Systems.
+Relevant coursework: Artificial Intelligence, Machine Learning, Algorithms & Complexity, Software Engineering, Computer Networks, Database Systems, Probability & Statistics, Digital Signal Processing
 
 ---
 
-[![Email](https://img.shields.io/badge/rubayetkabirz%40gmail.com-red?style=flat&logo=gmail)](mailto:rubayetkabirz@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rubaet%20Kabir%20Zishan-blue?style=flat&logo=linkedin)](https://linkedin.com/in/rubaet-kabir-zishan)
+## Research Interests
+
+Applied Machine Learning · Explainable AI (XAI) · Natural Language Processing · Bayesian Inference & Probabilistic Modeling · Large Language Models & Fine-tuning · Reinforcement Learning · Agentic AI & Multi-Agent Systems · AI for Environmental & Health Sciences · IoT & Embedded Intelligence
