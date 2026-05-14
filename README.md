@@ -114,7 +114,7 @@ Worked across a Node.js / React SaaS platform — reproduced and traced bugs, va
 
 **B.Sc. in Computer Science & Engineering** — MIST, Dhaka *(May 2022 – May 2026)*
 
-Relevant coursework: Artificial Intelligence, Machine Learning, Algorithms & Complexity, Software Engineering, Computer Networks, Database Systems, Probability & Statistics, Digital Signal Processing
+Relevant coursework: Artificial Intelligence, Machine Learning, Data Structures & Algorithms, Software Engineering, Computer Networks, Database Systems, Probability & Statistics, Digital Signal Processing
 
 ---
 
