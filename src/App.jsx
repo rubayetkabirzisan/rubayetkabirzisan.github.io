@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from 'react'
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
 import {
   profile, interests, education, researchExperience,
   projects, skills, publications, competitiveProgramming
@@ -36,10 +38,19 @@ function Hero() {
       </p>
       <p className="hero-statement">{profile.researchStatement}</p>
       <div className="hero-links">
-        <a href={`mailto:${profile.email}`}>✉ Email</a>
-        <a href={profile.github} target="_blank" rel="noreferrer">⌥ GitHub</a>
-        <a href={profile.linkedin} target="_blank" rel="noreferrer">↗ LinkedIn</a>
-      </div>
+  <a href={`mailto:${profile.email}`}>
+    <FaEnvelope /> Email
+  </a>
+  <a href={profile.github} target="_blank" rel="noreferrer">
+    <FaGithub /> GitHub
+  </a>
+  <a href={profile.linkedin} target="_blank" rel="noreferrer">
+    <FaLinkedin /> LinkedIn
+  </a>
+  <a href={profile.google_scholar} target="_blank" rel="noreferrer">
+    <SiGooglescholar /> Google Scholar
+  </a>
+</div>
     </div>
   )
 }
