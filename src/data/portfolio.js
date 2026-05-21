@@ -8,6 +8,7 @@ export const profile = {
   email: "rubayetkabirz@gmail.com",
   github: "https://github.com/rubayetkabirzisan",
   linkedin: "https://linkedin.com/in/rubaet-kabir-zishan",
+  google_scholar: "https://scholar.google.com/citations?user=JlmQxnAAAAAJ&hl=en",
   researchStatement: `Final-year Computer Science researcher at MIST with peer-reviewed IEEE publications and hands-on research spanning applied machine learning, Bayesian probabilistic modeling, environmental data science, and transformer-based NLP. Seeking fully funded graduate research positions (MS/PhD) in AI, ML, and interdisciplinary computational science where rigorous methodology, explainability, and real-world impact converge.`,
 }
 
