@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+// import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
 import {
   profile, interests, education, researchExperience,
@@ -52,8 +53,8 @@ function Hero() {
     <SiGooglescholar /> Google Scholar
   </a>
   <a href={profile.cv} target="_blank" rel="noreferrer">
-    Curriculum Vitae
-  </a>
+  <FaFileAlt /> Curriculum Vitae
+</a>
 </div>
     </div>
   )
