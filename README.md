@@ -15,7 +15,7 @@ Military Institute of Science and Technology (MIST), Dhaka, Bangladesh — Expec
 | # | Title | Venue | Status |
 |---|-------|--------|--------|
 | 1 | [AI Integrated Automated Door Lock System Through Face Recognition](https://ieeexplore.ieee.org/document/11172231) | IEEE QPAIN 2025 | ✅ Published |
-| 2 | [Chashi-IoT: Developing a Sustainable Integrated Agricultural IoT System Using Cisco Packet Tracer](https://ieeexplore.ieee.org/document/11526264) | IEEE WIECON 2025 | ✅ Published |
+| 2 | [Chashi-IoT: Developing a Sustainable Integrated Agricultural IoT System Using Cisco Packet Tracer](https://ieeexplore.ieee.org/document/11526264) | IEEE WIECON-ECE 2025 | ✅ Published |
 | 3 | Bangla to Chakma Neural Machine Translation via Fine-Tuned T5 | Undergraduate Thesis | 🔵 In Progress |
 
 ---
