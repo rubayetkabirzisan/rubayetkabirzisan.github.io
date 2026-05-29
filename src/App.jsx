@@ -20,7 +20,7 @@ function Nav() {
           <li><a href="#projects">Projects</a></li>
           <li><a href="#competitive">CP</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href={profile.cv} target="_blank" rel="noreferrer">CV</a></li>
+          {/* <li><a href={profile.cv} target="_blank" rel="noreferrer">CV</a></li> */}
         </ul>
       </div>
     </nav>
