@@ -45,10 +45,10 @@ export const researchExperience = [
     supervisorTitle: "Associate Professor — Top 2% Scientist globally (Stanford–Elsevier 2022–2025)",
     supervisorEmail: "nazrul@cse.mist.ac.bd",
     institution: "Dept. of Computer Science & Engineering, MIST",
-    period: "2025 — Present",
+    period: "June 2025– June 2026",
     description: "Conducting thesis research on Bangla↔Chakma Neural Machine Translation via Fine-Tuned T5 Models under direct supervision of Dr. Islam, whose lab has produced 69+ refereed journal articles (Q1/Q2), 173+ international conference papers, and research grants exceeding USD 250,000.",
     highlights: [
-      "Co-authored two IEEE-indexed conference papers accepted prior to undergraduate graduation — Automated Door Lock System Using Face Recognition (IEEE QPAIN, 2025, Published) and Development of a Sustainable Integrated Agricultural IoT System (IEEE WIECON, 2025, Accepted).",
+      "Co-authored two IEEE-indexed conference papers accepted prior to undergraduate graduation — AI Integrated Automated Door Lock System Through Face Recognition (IEEE QPAIN, 2025, Published) and Chashi-IoT: Developing a Sustainable Integrated Agricultural IoT System Using Cisco Packet Tracer (IEEE WIECON-ECE, 2025, Published).",
       "Collaborating within an active research group on applied ML, NLP, bioinformatics, and human-computer interaction.",
       "Investigating task-adaptive fine-tuning protocols for Bengali summarization and classification tasks using the T5 (Text-to-Text Transfer Transformer) architecture.",
     ],
@@ -57,7 +57,7 @@ export const researchExperience = [
 
 export const publications = [
   {
-    title: "Automated Door Lock System Using Face Recognition",
+    title: "AI Integrated Automated Door Lock System Through Face Recognition",
     conference: "IEEE QPAIN",
     year: "2025",
     status: "Published",
@@ -65,7 +65,7 @@ export const publications = [
     description: "Proposes a real-time biometric access-control system utilizing CNN-based face recognition pipelines. Evaluates recognition accuracy under varied lighting conditions and occlusion scenarios, addressing practical deployment challenges in embedded security contexts.",
   },
   {
-    title: "Development of a Sustainable Integrated Agricultural IoT System",
+    title: "Chashi-IoT: Developing a Sustainable Integrated Agricultural IoT System Using Cisco Packet Tracer",
     conference: "IEEE WIECON-ECE",
     year: "2025",
     status: "Published",
@@ -85,7 +85,7 @@ export const publications = [
 export const projects = [
   {
     title: "Bangla to Chakma Neural Machine Translation — Undergraduate Thesis",
-    year: "2025–2026",
+    year: "June 2025– June 2026",
     github: null,
     tags: ["T5 Transformer", "PyTorch", "Hugging Face", "NLP", "Low-Resource NLP", "Seq2Seq"],
     status: "Undergraduate Thesis — In Progress",
