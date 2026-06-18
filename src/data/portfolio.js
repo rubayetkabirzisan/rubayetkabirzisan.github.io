@@ -179,6 +179,6 @@ export const skills = {
   "ML / Deep Learning": ["Scikit-Learn", "XGBoost", "PyTorch", "Hugging Face Transformers", "T5 / BERT Fine-tuning", "LangChain"],
   "Explainability & Analysis": ["SHAP", "LIME", "Bayesian Inference (PyMC)", "Pandas", "NumPy", "Matplotlib / Seaborn"],
   "Research & Scientific Tools": ["Jupyter Notebook", "MATLAB", "Git / GitHub", "LaTeX / Overleaf"],
-  "Software & Engineering": ["React", "Node.js", "Playwright (Test Automation)", "PostgreSQL", "REST APIs"],
+  "Software & Engineering": ["FastAPI", "React", "Node.js", "Playwright (Test Automation)", "PostgreSQL", "REST APIs"],
   "Research Domains": ["NLP & Text Mining", "Environmental Data Science", "IoT Systems", "Computer Vision", "Software QA / SDET"],
 }
