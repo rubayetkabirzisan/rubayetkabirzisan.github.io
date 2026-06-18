@@ -16,7 +16,7 @@ Military Institute of Science and Technology (MIST), Dhaka, Bangladesh — Expec
 |---|-------|--------|--------|
 | 1 | [AI Integrated Automated Door Lock System Through Face Recognition](https://ieeexplore.ieee.org/document/11172231) | IEEE QPAIN 2025 | ✅ Published |
 | 2 | [Chashi-IoT: Developing a Sustainable Integrated Agricultural IoT System Using Cisco Packet Tracer](https://ieeexplore.ieee.org/document/11526264) | IEEE WIECON-ECE 2025 | ✅ Published |
-| 3 | Bangla to Chakma Neural Machine Translation via Fine-Tuned T5 | Undergraduate Thesis | 🔵 In Progress |
+| 3 | Bangla to Chakma Neural Machine Translation via Fine-Tuned T5Identification and Translation of Transliterated Chakma Text into Bangla | Undergraduate Thesis | 🔵 In Progress |
 
 ---
 
@@ -27,7 +27,7 @@ Dept. of Computer Science & Engineering, MIST
 
 Supervised by **Lt Col Muhammad Nazrul Islam, PhD** — Associate Professor and Top 2% Scientist globally (Stanford–Elsevier 2022–2025), with 69+ Q1/Q2 journal articles, 173+ international conference papers, and >USD 250,000 in research grants.
 
-- Thesis: Bangla↔Chakma Neural Machine Translation via Fine-Tuned T5 — targeting two low-resource, linguistically distinct languages with limited parallel corpora
+- Thesis: Identification and Translation of Transliterated Chakma Text into Bangla
 
 ---
 
@@ -69,7 +69,7 @@ Probabilistic modeling study examining water contamination patterns across Bangl
 
 ---
 
-**Bangla ↔ Chakma Neural Machine Translation** *(Undergraduate Thesis — In Progress)*
+**Identification and Translation of Transliterated Chakma Text into Bangla** *(Undergraduate Thesis — In Progress)*
 `Python · PyTorch · Hugging Face · T5 · Seq2Seq`
 
 Fine-tuning a T5-based model for bidirectional Chakma↔Bengali translation targeting two linguistically distinct low-resource languages. Includes BLEU/chrF evaluation against transformer baselines and web-app deployment for real-world accessibility.
