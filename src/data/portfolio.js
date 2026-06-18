@@ -85,7 +85,7 @@ export const publications = [
 
 export const projects = [
   {
-    title: "Bangla to Chakma Neural Machine Translation — Undergraduate Thesis",
+    title: "Identification and Translation of Transliterated Chakma Text into Bangla",
     year: "June 2025– June 2026",
     github: null,
     tags: ["T5 Transformer", "PyTorch", "Hugging Face", "NLP", "Low-Resource NLP", "Seq2Seq"],
@@ -95,6 +95,20 @@ export const projects = [
       "Fine-tuning a Bengali T5 model for bidirectional Chakma↔Bengali translation, addressing two linguistically distinct low-resource languages with limited parallel corpora — a significant challenge in low-resource neural machine translation.",
       "Designing task-specific fine-tuning protocols and evaluating translation quality against baseline transformer architectures using BLEU, chrF, and human evaluation metrics.",
       "Deploying the translation model as an accessible web application to enable real-world usability for Chakma speakers and validate end-to-end system performance.",
+    ],
+  },
+
+  {
+    title: "RetailOS — AI-Native Shelf Intelligence & Operations Suite",
+    year: "2026",
+    github: "https://github.com/rubayetkabirzisan/Retailos-Sprint",
+    tags: ["Next.js", "FastAPI", "Claude 3.5", "Gemini API", "Supabase"],
+    description: "An AI-powered retail intelligence platform that automates shelf-space compliance monitoring and detects field representative fraud through a 4-tier security engine — flagging GPS spoofing, duplicate submissions, blurred inputs, and timestamp anomalies in real time.",
+    highlights: [
+      "Developed an AI-driven visual analytics platform for real-time shelf compliance monitoring, enabling automated retail auditing at scale.",
+      "Engineered multi-LLM vision pipelines for accurate product detection, recognition, and planogram compliance verification.",
+      "Built a full-stack Next.js and FastAPI architecture with an offline-first sync mechanism and an integrated RetailGPT chatbot for context-aware database querying.",
+      "Implemented a 4-tier fraud prevention engine leveraging MD5 hash deduplication, image sharpness validation, Haversine-based geofence verification, and timestamp auditing.",
     ],
   },
   
