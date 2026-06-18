@@ -106,7 +106,7 @@ Worked across a Node.js / React SaaS platform — reproduced and traced bugs, va
 | **Reinforcement Learning** | PPO (Stable-Baselines3), OpenAI Gym, SUMO |
 | **Programming Languages** | Python, C++, JavaScript, SQL, LaTeX |
 | **Research Tools** | Jupyter, MATLAB, Git/GitHub, LaTeX/Overleaf |
-| **Software & Engineering** | React, Node.js, Playwright, PostgreSQL, REST APIs |
+| **Software & Engineering** | FastAPI, React, Node.js, Playwright, PostgreSQL, REST APIs |
 | **Research Domains** | NLP, Bioinformatics, Environmental Data Science, IoT Systems, Computer Vision |
 
 ---
