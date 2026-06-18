@@ -31,7 +31,7 @@ export const education = [
     period: "May 2022 — May 2026",
     gpa: null,
     highlights: [
-      "Thesis: Bengali Natural Language Processing via Fine-Tuned T5 Transformer Models — investigating low-resource NLP adaptation using sequence-to-sequence pre-training and domain-specific fine-tuning strategies.",
+      "Thesis: Identification and Translation of Transliterated Chakma Text into Bangla — investigating low-resource NLP adaptation using sequence-to-sequence pre-training and domain-specific fine-tuning strategies.",
       "Relevant Coursework: Artificial Intelligence, Machine Learning, Software Engineering, Computer Networks,Computer Security, Data Structures & Algorithms, Database Systems, Probability & Statistics",
       "Two peer-reviewed IEEE publications accepted prior to graduation." ,
       "Active research under supervision of a globally recognized Top 2 % Scientist(Stanford–Elsevier, 2022–2025).",
