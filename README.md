@@ -33,6 +33,17 @@ Supervised by **Lt Col Muhammad Nazrul Islam, PhD** — Associate Professor and 
 
 ## Research & Technical Projects
 
+**[RetailOS — AI-Native Shelf Intelligence & Operations Suite](https://github.com/rubayetkabirzisan/Retailos-Sprint)**
+`Next.js · FastAPI · Claude 3.5 · Gemini API · Supabase` · *2026*
+
+AI-powered retail intelligence platform that automates shelf-space compliance monitoring and detects field representative fraud through a 4-tier security engine. Built for real-time product detection, planogram compliance verification, and offline-first retail auditing workflows.
+
+- Multi-LLM vision pipeline for shelf compliance monitoring and product recognition
+- Full-stack Next.js and FastAPI architecture with offline-first sync and RetailGPT chatbot support
+- 4-tier fraud prevention engine using MD5 deduplication, sharpness checks, geofence validation, and timestamp auditing
+
+---
+
 **[Churn Sentinel — Explainable AI Customer Retention System](https://github.com/rubayetkabirzisan/Churn-Sentinel)**
 `Python · XGBoost · SHAP · LangChain · Multi-Agent AI` · *2026*
 
