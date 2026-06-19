@@ -9,7 +9,7 @@ export const profile = {
   github: "https://github.com/rubayetkabirzisan",
   linkedin: "https://linkedin.com/in/rubaet-kabir-zishan",
   google_scholar: "https://scholar.google.com/citations?user=JlmQxnAAAAAJ&hl=en",
-  researchStatement: `Final-year Computer Science researcher at MIST with peer-reviewed IEEE publications and hands-on research spanning applied machine learning, Bayesian probabilistic modeling, environmental data science, and transformer-based NLP. Seeking fully funded graduate research positions (MS/PhD) in AI, ML, and interdisciplinary computational science where rigorous methodology, explainability, and real-world impact converge.`,
+  researchStatement: `Computer Science researcher (BSc, MIST, 2026) with IEEE-published work in embedded biometric systems and IoT-based precision agriculture. My defended undergraduate thesis fine-tunes transformer models for Chakma↔Bengali translation — a low-resource language pair with virtually no prior computational treatment — now being prepared for Q1/Q2 journal submission. Seeking fully funded PhD positions (MS considered) in NLP, applied ML, and computational science for underserved domains and languages.`,
   cv: "/CV_Md._Rubaet_Kabir_Zishan.pdf",
 }
 
@@ -31,10 +31,10 @@ export const education = [
     period: "May 2022 — May 2026",
     gpa: null,
     highlights: [
-      "Thesis: Identification and Translation of Transliterated Chakma Text into Bangla — investigating low-resource NLP adaptation using sequence-to-sequence pre-training and domain-specific fine-tuning strategies.",
-      "Relevant Coursework: Artificial Intelligence, Machine Learning, Software Engineering, Computer Networks,Computer Security, Data Structures & Algorithms, Database Systems, Probability & Statistics",
-      "Two peer-reviewed IEEE publications accepted prior to graduation." ,
-      "Active research under supervision of a globally recognized Top 2 % Scientist(Stanford–Elsevier, 2022–2025).",
+      "Thesis: Identification and Translation of Transliterated Chakma Text into Bangla — investigating low-resource NLP adaptation using sequence-to-sequence pre-training and domain-specific fine-tuning strategies. Successfully defended; manuscript in preparation for Q1/Q2 journal submission.",
+      "Relevant Coursework: Artificial Intelligence, Machine Learning, Software Engineering, Computer Networks, Computer Security, Data Structures & Algorithms, Database Systems, Probability & Statistics",
+      "Two peer-reviewed IEEE publications published prior to graduation.",
+      "Conducted research under supervision of a globally recognized Top 2% Scientist (Stanford–Elsevier, 2022–2025).",
     ],
   },
 ]
@@ -46,12 +46,12 @@ export const researchExperience = [
     supervisorTitle: "Associate Professor — Top 2% Scientist globally (Stanford–Elsevier 2022–2025)",
     supervisorEmail: "nazrul@cse.mist.ac.bd",
     institution: "Dept. of Computer Science & Engineering, MIST",
-    period: "June 2025– June 2026",
-    description: "Conducting thesis research on Bangla↔Chakma Neural Machine Translation via Fine-Tuned T5 Models under direct supervision of Dr. Islam, whose lab has produced 69+ refereed journal articles (Q1/Q2), 173+ international conference papers, and research grants exceeding USD 250,000.",
+    period: "June 2025 – May 2026",
+    description: "Completed thesis research on Bangla↔Chakma Neural Machine Translation via Fine-Tuned T5 Models under direct supervision of Dr. Islam, whose lab has produced 69+ refereed journal articles (Q1/Q2), 173+ international conference papers, and research grants exceeding USD 250,000. Thesis successfully defended; manuscript now being prepared for Q1/Q2 journal submission.",
     highlights: [
-      "Co-authored two IEEE-indexed conference papers accepted prior to undergraduate graduation — AI Integrated Automated Door Lock System Through Face Recognition (IEEE QPAIN, 2025, Published) and Chashi-IoT: Developing a Sustainable Integrated Agricultural IoT System Using Cisco Packet Tracer (IEEE WIECON-ECE, 2025, Published).",
-      "Collaborating within an active research group on applied ML, NLP, bioinformatics, and human-computer interaction.",
-      "Investigating task-adaptive fine-tuning protocols for Bengali summarization and classification tasks using the T5 (Text-to-Text Transfer Transformer) architecture.",
+      "Co-authored two IEEE-indexed conference papers published prior to undergraduate graduation — AI Integrated Automated Door Lock System Through Face Recognition (IEEE QPAIN, 2025, Published) and Chashi-IoT: Developing a Sustainable Integrated Agricultural IoT System Using Cisco Packet Tracer (IEEE WIECON-ECE, 2025, Published).",
+      "Collaborated within an active research group on applied ML, NLP, bioinformatics, and human-computer interaction.",
+      "Investigated task-adaptive fine-tuning protocols for Bengali summarization and classification tasks using the T5 (Text-to-Text Transfer Transformer) architecture.",
     ],
   },
 ]
@@ -74,10 +74,10 @@ export const publications = [
     description: "Presents a sensor-fused IoT architecture for real-time agricultural monitoring integrating environmental sensing, edge processing, and cloud-based data pipelines to support precision farming in agrarian economies.",
   },
   {
-    title: "Bangla to Chakma Neural Machine Translation via Fine-Tuned T5",
-    journal: "Undergraduate Thesis — Target Journal Submission",
+    title: "Identification and Translation of Transliterated Chakma Text into Bangla",
+    journal: "Target: Q1/Q2 Journal Submission",
     year: "2026",
-    status: "In Progress",
+    status: "Thesis Defended — Manuscript in Preparation",
     link: null,
     description: "Fine-tuning a T5-based seq2seq model for bidirectional Chakma↔Bengali translation targeting two linguistically distinct low-resource languages. Includes task-specific fine-tuning protocols, BLEU/chrF evaluation against transformer baselines, and web-application deployment for real-world accessibility.",
   },
@@ -86,15 +86,15 @@ export const publications = [
 export const projects = [
   {
     title: "Identification and Translation of Transliterated Chakma Text into Bangla",
-    year: "June 2025– June 2026",
+    year: "June 2025 – May 2026",
     github: null,
     tags: ["T5 Transformer", "PyTorch", "Hugging Face", "NLP", "Low-Resource NLP", "Seq2Seq"],
-    status: "Undergraduate Thesis — In Progress",
+    status: "Undergraduate Thesis — Defended; Manuscript in Preparation (Q1/Q2 Journal)",
     description: "Fine-tuning a T5-based sequence-to-sequence model for bidirectional Chakma↔Bengali translation — targeting two linguistically distinct low-resource languages with extremely limited parallel corpora. Contributes to the agenda of equitable multilingual NLP for indigenous and minority languages.",
     highlights: [
-      "Fine-tuning a Bengali T5 model for bidirectional Chakma↔Bengali translation, addressing two linguistically distinct low-resource languages with limited parallel corpora — a significant challenge in low-resource neural machine translation.",
-      "Designing task-specific fine-tuning protocols and evaluating translation quality against baseline transformer architectures using BLEU, chrF, and human evaluation metrics.",
-      "Deploying the translation model as an accessible web application to enable real-world usability for Chakma speakers and validate end-to-end system performance.",
+      "Fine-tuned a Bengali T5 model for bidirectional Chakma↔Bengali translation, addressing two linguistically distinct low-resource languages with limited parallel corpora — a significant challenge in low-resource neural machine translation.",
+      "Designed task-specific fine-tuning protocols and evaluated translation quality against baseline transformer architectures using BLEU, chrF, and human evaluation metrics.",
+      "Deployed the translation model as an accessible web application to enable real-world usability for Chakma speakers and validate end-to-end system performance.",
     ],
   },
 
@@ -111,7 +111,7 @@ export const projects = [
       "Implemented a 4-tier fraud prevention engine leveraging MD5 hash deduplication, image sharpness validation, Haversine-based geofence verification, and timestamp auditing.",
     ],
   },
-  
+
   {
     title: "Churn Sentinel — Explainable AI-Powered Customer Retention System",
     year: "2026",
