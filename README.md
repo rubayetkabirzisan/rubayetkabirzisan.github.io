@@ -1,16 +1,44 @@
 # Md. Rubaet Kabir Zishan
 
-**B.Sc. Candidate, Computer Science & Engineering**
-Military Institute of Science and Technology (MIST), Dhaka, Bangladesh — Expected May 2026
+**B.Sc. in Computer Science & Engineering**
+Military Institute of Science and Technology (MIST), Dhaka, Bangladesh — Graduated May 2026
 
-[![Email](https://img.shields.io/badge/rubayetkabirz%40gmail.com-D44638?style=flat&logo=gmail&logoColor=white)](mailto:rubayetkabirz@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rubaet%20Kabir%20Zishan-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rubaet-kabir-zishan)
+[![Email](https://img.shields.io/badge/rubayetkabirz%40gmail.com-D44638?style=flat&logo=gmail&logoColor=white)](mailto:rubayetkabirz@gmail.com)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rubaet%20Kabir%20Zishan-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rubaet-kabir-zishan)
 
-> Final-year Computer Science researcher with peer-reviewed IEEE publications spanning applied machine learning, Bayesian probabilistic modeling, reinforcement learning, and transformer-based NLP. Seeking fully funded graduate research positions (MS/PhD) in AI, ML, and interdisciplinary computational science.
+> Research-driven AI engineer with peer-reviewed IEEE publications in machine learning, probabilistic modeling, reinforcement learning, and NLP. Experienced in building end-to-end AI systems, scientific research pipelines, and production-quality software.
 
 ---
 
-## Publications
+## Summary
+
+Recent graduate from MIST with a strong research and engineering background in AI/ML systems. Published IEEE papers, led thesis work in low-resource language translation, and developed practical solutions for retail intelligence, customer retention, traffic optimization, and bioinformatics.
+
+---
+
+## Education
+
+**B.Sc. in Computer Science & Engineering** — MIST, Dhaka *(May 2022 – May 2026)*
+
+Relevant coursework:
+- Artificial Intelligence
+- Machine Learning
+- Data Structures & Algorithms
+- Software Engineering
+- Computer Networks
+- Database Systems
+- Probability & Statistics
+- Digital Signal Processing
+
+---
+
+## Research & Publications
+
+**Undergraduate Thesis Researcher** *(2025 — Present)*
+Department of Computer Science & Engineering, MIST
+
+- Thesis: Identification and Translation of Transliterated Chakma Text into Bangla
+- Supervisor: **Lt Col Muhammad Nazrul Islam, PhD**
+- Focus: low-resource language translation, transformer-based seq2seq models, and practical deployment for minority language access
 
 | # | Title | Venue | Status |
 |---|-------|--------|--------|
@@ -20,70 +48,58 @@ Military Institute of Science and Technology (MIST), Dhaka, Bangladesh — Expec
 
 ---
 
-## Research Experience
+## Selected Projects
 
-**Undergraduate Thesis Researcher** *(2025 — Present)*
-Dept. of Computer Science & Engineering, MIST
+### RetailOS — AI-Native Shelf Intelligence & Operations Suite
+`Next.js · FastAPI · Claude 3.5 · Gemini API · Supabase`
 
-Supervised by **Lt Col Muhammad Nazrul Islam, PhD** — Associate Professor and Top 2% Scientist globally (Stanford–Elsevier 2022–2025), with 69+ Q1/Q2 journal articles, 173+ international conference papers, and >USD 250,000 in research grants.
+Built an AI-enabled retail compliance platform with real-time shelf detection, planogram verification, offline-first auditing, and fraud prevention.
 
-- Thesis: Identification and Translation of Transliterated Chakma Text into Bangla
-
----
-
-## Research & Technical Projects
-
-**[RetailOS — AI-Native Shelf Intelligence & Operations Suite](https://github.com/rubayetkabirzisan/Retailos-Sprint)**
-`Next.js · FastAPI · Claude 3.5 · Gemini API · Supabase` · *2026*
-
-AI-powered retail intelligence platform that automates shelf-space compliance monitoring and detects field representative fraud through a 4-tier security engine. Built for real-time product detection, planogram compliance verification, and offline-first retail auditing workflows.
-
-- Multi-LLM vision pipeline for shelf compliance monitoring and product recognition
-- Full-stack Next.js and FastAPI architecture with offline-first sync and RetailGPT chatbot support
-- 4-tier fraud prevention engine using MD5 deduplication, sharpness checks, geofence validation, and timestamp auditing
+- Multi-LLM vision pipeline for product recognition and compliance scoring
+- Offline sync, RetailGPT chatbot, and audit workflow support
+- Fraud controls including deduplication, image quality checks, geofence validation, and timestamp auditing
 
 ---
 
-**[Churn Sentinel — Explainable AI Customer Retention System](https://github.com/rubayetkabirzisan/Churn-Sentinel)**
-`Python · XGBoost · SHAP · LangChain · Multi-Agent AI` · *2026*
+### Churn Sentinel — Explainable AI Customer Retention System
+`Python · XGBoost · SHAP · LangChain · Multi-Agent AI`
 
-End-to-end intelligent retention system coupling gradient-boosted ML with SHAP post-hoc explainability and a LangChain multi-agent orchestration layer that translates risk signals into autonomous retention actions.
+Developed an explainable retention system that turns customer risk signals into recommended retention actions.
 
-- XGBoost classifier with hyperparameter optimization and stratified cross-validation for imbalanced churn data
-- SHAP global (beeswarm, bar) and local (force plots, waterfall) explanations for interpretable model auditing
-- Multi-agent pipeline (Behavior Detector → Discount Evaluator → Email Generator) for autonomous personalized outreach
-
----
-
-**[SUMO-PPO Adaptive Traffic Signal Control](https://github.com/rubayetkabirzisan/Sumo-PPO-Traffic-Control)**
-`Python · PPO · SUMO Simulator · Stable-Baselines3 · OpenAI Gym` · *2026*
-
-Reinforcement learning system for adaptive traffic signal control using Proximal Policy Optimization inside the SUMO traffic simulation environment. Trained over 200,000 steps with composite reward balancing queue minimization and vehicle throughput.
-
-- Custom Gym-compatible SUMO environment with normalized state space and 4-action policy (keep / advance / extend / reduce phase)
-- Yellow-phase protection constraints enforcing safe agent behavior during signal transitions
-- EvalCallback best-model checkpointing, per-episode CSV logging, and TensorBoard reward curve analysis
+- XGBoost classification with optimized validation for imbalanced churn data
+- SHAP explainability for global and local model interpretation
+- LangChain-driven multi-agent pipeline for behavioral detection and outreach automation
 
 ---
 
-**[Genomic Variant Classifier — Pathogenicity Prediction](https://github.com/rubayetkabirzisan/Genomic-Variant-Classifier)**
-`Python · Scikit-Learn · Random Forest · Bioinformatics` · *2026*
+### SUMO-PPO Adaptive Traffic Signal Control
+`Python · PPO · SUMO · Stable-Baselines3 · OpenAI Gym`
 
-ML pipeline for classifying genomic SNVs as benign, pathogenic, or variant of uncertain significance. Evaluation grounded in ACMG classification standards using precision, recall, F1, and ROC-AUC.
+Designed a reinforcement learning pipeline for adaptive traffic signal control using PPO and traffic simulation.
 
----
-
-**[Bayesian Water Quality Analysis — Bangladesh](https://github.com/rubayetkabirzisan/Bayesian-Water-Quality-BD)**
-`Python · PyMC · Bayesian Inference · Geospatial Analysis` · *2026*
-
-Probabilistic modeling study examining water contamination patterns across Bangladesh using Bayesian hierarchical models. Posterior predictive distributions for arsenic, dissolved solids, and microbial thresholds — addressing UN SDG-6.
+- Custom Gym-compatible SUMO environment with normalized state and action spaces
+- Safety-aware transition rules and reward shaping for smooth traffic flow
+- Best-model checkpointing, logging, and TensorBoard analysis
 
 ---
 
-**Identification and Translation of Transliterated Chakma Text into Bangla** *(Undergraduate Thesis — In Progress)*
-`Python · PyTorch · Hugging Face · T5 · Seq2Seq`
+### Genomic Variant Classifier — Pathogenicity Prediction
+`Python · Scikit-Learn · Random Forest · Bioinformatics`
 
-Fine-tuning a T5-based model for bidirectional Chakma↔Bengali translation targeting two linguistically distinct low-resource languages. Includes BLEU/chrF evaluation against transformer baselines and web-app deployment for real-world accessibility.
+Implemented a machine learning pipeline to classify single-nucleotide variants by pathogenicity and uncertainty.
+
+- Evaluation based on ACMG-inspired metrics: precision, recall, F1, ROC-AUC
+- Designed feature processing and model validation for genomic data
+
+---
+
+### Bayesian Water Quality Analysis — Bangladesh
+`Python · PyMC · Bayesian Inference · Geospatial Analysis`
+
+Modeled water contamination in Bangladesh with hierarchical Bayesian methods to support environmental quality assessment.
+
+- Posterior predictive modeling of arsenic, dissolved solids, and microbial risk
+- Analysis aligned with UN SDG-6 water quality targets
 
 ---
 
@@ -91,29 +107,29 @@ Fine-tuning a T5-based model for bidirectional Chakma↔Bengali translation targ
 
 **Software Engineering Intern — Aurify** *(Remote, Chicago, IL · Aug 2025 – Apr 2026)*
 
-Worked across a Node.js / React SaaS platform — reproduced and traced bugs, validated REST API contracts via Postman, and shipped fixes across multiple release cycles. Built and maintained Playwright / TypeScript E2E suites using the Page Object Model; logged 30+ defects in JIRA with reproduction steps and severity ratings.
+Contributed to a SaaS platform using Node.js and React; improved release quality with robust testing and issue tracking.
 
-`Node.js · React · Playwright · TypeScript · REST APIs · PostgreSQL · JIRA`
+- Reproduced and resolved bugs across frontend and backend systems
+- Validated REST APIs and improved contract reliability with Postman
+- Built Playwright + TypeScript end-to-end test suites using Page Object Model
+- Logged 30+ defects in JIRA with clear reproduction steps and priority guidance
 
 ---
 
 ## Technical Skills
 
-| Area | Technologies |
-|------|-------------|
-| **ML / Deep Learning** | Scikit-Learn, XGBoost, PyTorch, Hugging Face Transformers, T5/BERT Fine-tuning, LangChain |
-| **Explainability & Analysis** | SHAP, LIME, Bayesian Inference (PyMC), Pandas, NumPy, Matplotlib/Seaborn |
-| **Reinforcement Learning** | PPO (Stable-Baselines3), OpenAI Gym, SUMO |
-| **Programming Languages** | Python, C++, JavaScript, SQL, LaTeX |
-| **Research Tools** | Jupyter, MATLAB, Git/GitHub, LaTeX/Overleaf |
-| **Software & Engineering** | FastAPI, React, Node.js, Playwright, PostgreSQL, REST APIs |
-| **Research Domains** | NLP, Bioinformatics, Environmental Data Science, IoT Systems, Computer Vision |
+- Programming: Python, C++, JavaScript, SQL, LaTeX
+- Machine Learning: Scikit-Learn, XGBoost, PyTorch, Hugging Face Transformers, T5/BERT, LangChain
+- Explainability & Analytics: SHAP, LIME, PyMC, Pandas, NumPy, Matplotlib, Seaborn
+- Reinforcement Learning: PPO, Stable-Baselines3, OpenAI Gym, SUMO
+- Web & APIs: FastAPI, React, Node.js, REST APIs
+- Tools: Git, GitHub, Jupyter, Playwright, PostgreSQL, MATLAB, Overleaf
 
 ---
 
 ## Competitive Programming
 
-300+ problems solved across LeetCode, Codeforces, and CodeChef — spanning data structures, graph algorithms, dynamic programming, and greedy methods. Consistent edge-case and failure-scenario analysis.
+Solved 300+ problems across LeetCode, Codeforces, and CodeChef.
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-rubayetkabirzisan-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/rubayetkabirzisan/)
 [![Codeforces](https://img.shields.io/badge/Codeforces-mission27-1F8ACB?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/mission27)
@@ -121,14 +137,6 @@ Worked across a Node.js / React SaaS platform — reproduced and traced bugs, va
 
 ---
 
-## Education
-
-**B.Sc. in Computer Science & Engineering** — MIST, Dhaka *(May 2022 – May 2026)*
-
-Relevant coursework: Artificial Intelligence, Machine Learning, Data Structures & Algorithms, Software Engineering, Computer Networks, Database Systems, Probability & Statistics, Digital Signal Processing
-
----
-
 ## Research Interests
 
-Applied Machine Learning · Explainable AI (XAI) · Natural Language Processing · Bayesian Inference & Probabilistic Modeling · Large Language Models & Fine-tuning · Reinforcement Learning · Agentic AI & Multi-Agent Systems · AI for Environmental & Health Sciences · IoT & Embedded Intelligence
+Applied Machine Learning · Explainable AI · Natural Language Processing · Bayesian Inference · Reinforcement Learning · Large Language Models · Agentic AI · AI for Environmental & Health Sciences · IoT Systems
