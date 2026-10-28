@@ -4,7 +4,7 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
 import {
   profile, interests, education, researchExperience,
-  projects, skills, publications, competitiveProgramming
+  projects, skills, publications, competitiveProgramming, industryExperience
 } from './data/portfolio.js'
 
 function Nav() {
@@ -18,6 +18,7 @@ function Nav() {
           <li><a href="#research">Research</a></li>
           <li><a href="#publications">Publications</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#industry">Industry</a></li>
           <li><a href="#competitive">CP</a></li>
           <li><a href="#skills">Skills</a></li>
           {/* <li><a href={profile.cv} target="_blank" rel="noreferrer">CV</a></li> */}
@@ -132,35 +133,43 @@ function ResearchExperience() {
 
 function Publications() {
   if (!publications || publications.length === 0) return null
+  const categories = [...new Set(publications.map((pub) => pub.category))]
   return (
     <section id="publications">
       <div className="section-header">
         <span className="section-number">§04</span>
         <span className="section-title">Publications</span>
       </div>
-      <div className="pub-list">
-        {publications.map((pub, i) => (
-          <div key={i} className="pub-entry">
-            <div className="pub-top">
-              <p className="pub-title">
-                {pub.link
-                  ? <a href={pub.link} target="_blank" rel="noreferrer">{pub.title}</a>
-                  : pub.title
-                }
-              </p>
-              <span className={`pub-status ${pub.status === 'Published' ? 'published' : pub.status === 'Accepted' ? 'accepted' : 'progress'}`}>
-                {pub.status}
-              </span>
-            </div>
-            <p className="pub-venue">
-              {pub.conference || pub.journal} · {pub.year}
-            </p>
-            {pub.description && (
-              <p className="pub-desc">{pub.description}</p>
-            )}
+      {categories.map((category) => (
+        <div className="pub-group" key={category}>
+          <h3 className="pub-group-title">{category}</h3>
+          <div className="pub-list">
+            {publications.filter((pub) => pub.category === category).map((pub) => (
+              <div key={pub.title} className="pub-entry">
+                <div className="pub-top">
+                  <p className="pub-title">
+                    {pub.link
+                      ? <a href={pub.link} target="_blank" rel="noreferrer">{pub.title}</a>
+                      : pub.title
+                    }
+                  </p>
+                  <span className={`pub-status ${pub.status === 'Published' ? 'published' : pub.status === 'Accepted' ? 'accepted' : 'progress'}`}>
+                    {pub.status}
+                  </span>
+                </div>
+                <p className="pub-authors">{pub.authors}</p>
+                <p className="pub-venue">
+                  {pub.conference || pub.journal} · {pub.year}
+                </p>
+                {pub.doi && <p className="pub-doi">DOI: <a href={pub.link} target="_blank" rel="noreferrer">{pub.doi}</a></p>}
+                {pub.description && (
+                  <p className="pub-desc">{pub.description}</p>
+                )}
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </section>
   )
 }
@@ -219,12 +228,37 @@ function Projects() {
   )
 }
 
+function IndustryExperience() {
+  return (
+    <section id="industry">
+      <div className="section-header">
+        <span className="section-number">§06</span>
+        <span className="section-title">Industry Experience</span>
+      </div>
+      {industryExperience.map((exp) => (
+        <div key={exp.company} className="research-entry">
+          <div className="research-top">
+            <div>
+              <h3 className="research-role">{exp.role}</h3>
+              <p className="research-institution">{exp.company} · {exp.location}</p>
+            </div>
+            <span className="research-period">{exp.period}</span>
+          </div>
+          <ul className="project-highlights">
+            {exp.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}
+          </ul>
+        </div>
+      ))}
+    </section>
+  )
+}
+
 function CompetitiveProgramming() {
   const cp = competitiveProgramming
   return (
     <section id="competitive">
       <div className="section-header">
-        <span className="section-number">§06</span>
+        <span className="section-number">§07</span>
         <span className="section-title">Competitive Programming</span>
       </div>
       <div className="cp-wrapper">
@@ -250,7 +284,7 @@ function Skills() {
   return (
     <section id="skills">
       <div className="section-header">
-        <span className="section-number">§07</span>
+        <span className="section-number">§08</span>
         <span className="section-title">Technical Skills</span>
       </div>
       <div className="skills-grid">
@@ -288,6 +322,7 @@ export default function App() {
         <ResearchExperience />
         <Publications />
         <Projects />
+        <IndustryExperience />
         <CompetitiveProgramming />
         <Skills />
         <Footer />

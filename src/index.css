@@ -18,7 +18,8 @@
   --font-serif: 'EB Garamond', Georgia, serif;
   --font-mono: 'DM Mono', 'Courier New', monospace;
 
-  --max-width: 780px;
+  --max-width: 1040px;
+  --page-gutter: clamp(1.25rem, 4vw, 3rem);
   --section-gap: 4rem;
 }
 
@@ -62,10 +63,14 @@ a:hover {
 }
 
 /* ── Layout ── */
+.page-wrapper,
+.nav-inner {
+  width: min(var(--max-width), calc(100% - 2 * var(--page-gutter)));
+  margin-inline: auto;
+}
+
 .page-wrapper {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 0 2rem 6rem;
+  padding-bottom: 6rem;
 }
 
 /* ── Nav ── */
@@ -80,12 +85,11 @@ nav {
 }
 
 .nav-inner {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.75rem 1.5rem;
+  flex-wrap: wrap;
 }
 
 .nav-name {
@@ -98,7 +102,8 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: 1.75rem;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.1rem;
   list-style: none;
 }
 
@@ -171,7 +176,7 @@ nav {
   font-size: 1.05rem;
   line-height: 1.8;
   color: var(--ink-muted);
-  max-width: 640px;
+  max-width: 100%;
   font-style: italic;
   border-left: 2px solid var(--paper-rule);
   padding-left: 1.25rem;
@@ -211,6 +216,7 @@ nav {
 /* ── Section ── */
 section {
   margin-bottom: var(--section-gap);
+  scroll-margin-top: 5rem;
 }
 
 .section-header {
@@ -469,13 +475,43 @@ footer {
 /* ── Responsive ── */
 @media (max-width: 600px) {
   body { font-size: 16px; }
-  .nav-links { gap: 1rem; }
+  .nav-inner { gap: 0.5rem; }
+  .nav-links { gap: 0.4rem 0.85rem; line-height: 1.2; }
+  section { scroll-margin-top: 9rem; }
   .edu-entry { grid-template-columns: 1fr; }
   .edu-period { grid-column: 1; }
   footer { flex-direction: column; align-items: flex-start; }
 }
 
 /* ── Publications ── */
+.pub-group + .pub-group {
+  margin-top: 2.25rem;
+}
+
+.pub-group-title {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--ink-muted);
+  margin-bottom: 1.25rem;
+}
+
+.pub-authors {
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  line-height: 1.6;
+  margin-bottom: 0.3rem;
+}
+
+.pub-doi {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--ink-muted);
+  margin-top: 0.4rem;
+  overflow-wrap: anywhere;
+}
+
 .pub-list {
   display: flex;
   flex-direction: column;
@@ -742,6 +778,7 @@ footer {
 /* ── Responsive additions ── */
 @media (max-width: 600px) {
   .research-top { flex-direction: column; }
+  .pub-top { flex-direction: column; gap: 0.35rem; }
   .project-meta { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
   .cp-profiles { gap: 0.5rem; }
 }
