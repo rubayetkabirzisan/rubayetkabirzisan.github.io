@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 // import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaEnvelope, FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaFileAlt, FaPhone } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
 import {
   profile, interests, education, researchExperience,
@@ -43,6 +43,9 @@ function Hero() {
       <div className="hero-links">
   <a href={`mailto:${profile.email}`}>
     <FaEnvelope /> Email
+  </a>
+  <a href={`tel:${profile.phone}`}>
+    <FaPhone /> {profile.phone}
   </a>
   <a href={profile.github} target="_blank" rel="noreferrer">
     <FaGithub /> GitHub

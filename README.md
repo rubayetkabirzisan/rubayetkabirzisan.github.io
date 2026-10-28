@@ -3,7 +3,7 @@
 **B.Sc. in Computer Science & Engineering**
 Military Institute of Science and Technology (MIST), Dhaka, Bangladesh — Graduated May 2026
 
-[Portfolio](https://rubayetkabirzisan.github.io/) | [Email](mailto:rubayetkabirz@gmail.com) | [GitHub](https://github.com/rubayetkabirzisan) | [LinkedIn](https://linkedin.com/in/rubaet-kabir-zishan) | [Academic CV](public/Academic_CV_Md_Rubaet_Kabir_Zishan.pdf)
+[Portfolio](https://rubayetkabirzisan.github.io/) | [Email](mailto:rubayetkabirz@gmail.com) | [Phone: +8801310131344](tel:+8801310131344) | [GitHub](https://github.com/rubayetkabirzisan) | [LinkedIn](https://linkedin.com/in/rubaet-kabir-zishan) | [Academic CV](public/Academic_CV_Md_Rubaet_Kabir_Zishan.pdf)
 
 Computer Science graduate from MIST (2026) and Full Stack Software Engineer at Earthmatic Synthlab. My research interests are natural language processing, explainable and multi-agent AI, and probabilistic modeling under uncertainty. My work includes two peer-reviewed IEEE conference publications, a defended thesis on Chakma↔Bangla translation, and submitted research on intelligent pet adoption, water contamination screening, and explainability-aware customer retention.
 
@@ -18,7 +18,6 @@ Computer Science graduate from MIST (2026) and Full Stack Software Engineer at E
 **B.Sc. in Computer Science & Engineering** — Military Institute of Science and Technology (MIST) *(May 2022 — May 2026)*
 
 - Cumulative GPA: 3.27/4.00
-- Thesis: Identification and Translation of Transliterated Chakma Text into Bangla Using Machine Learning and Deep Learning Approaches — defended in 2026. Conference submission to ICCIT 2026 under review; extended journal manuscript in preparation.
 - Relevant Coursework: Artificial Intelligence, Machine Learning, Algorithms & Complexity, Software Engineering, Computer Networks, Database Systems, Probability & Statistics.
 
 ## Research Experience
@@ -61,17 +60,17 @@ Md. Rubaet Kabir Zishan, Fernaz Narin Nur, and Muhammad Nazrul Islam.
 
 International Conference on Computer and Information Technology (ICCIT), 2026. **Under review.**
 
-**Calibrated DempsterShafer Evidence Fusion for Water Contamination Risk Screening Under Missing Sensor Evidence**
+**Calibrated Dempster Shafer Evidence Fusion for Water Contamination Risk Screening Under Missing Sensor Evidence**
 
 Md. Rubaet Kabir Zishan, Fariza Sharin Prova, and Fatin Ilham Chowdhury.
 
-International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT), 2026. **Under review.**
+International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT), 2027. **Under review.**
 
 **SHARP-Retain: A SHAP-Consistency-Driven Multi-Agent Pipeline for Explainability-Aware Autonomous Customer Retention**
 
 Md. Rubaet Kabir Zishan, Faiz Al Faisal, and Muhammad Nazrul Islam.
 
-International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT), 2026. **Under review.**
+International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT), 2027. **Under review.**
 
 ### Thesis
 
@@ -81,7 +80,7 @@ Arqam Bin Almas, Maisha Nanjeeba, and Md. Rubaet Kabir Zishan.
 
 B.Sc. Thesis, Dept. of CSE, MIST, Dhaka, 2026. **Defended.**
 
-Supervisor: Lt Col Muhammad Nazrul Islam, PhD. Conference version submitted to ICCIT 2026 (under review); extended journal manuscript in preparation.
+Supervisor: Lt Col Muhammad Nazrul Islam, PhD. Extended journal manuscript in preparation.
 
 ## Research & Technical Projects
 
@@ -131,21 +130,13 @@ Dhaka | Aug 2026 — Present
 - Wrote the database layer in PLpgSQL, including schema design, database logic, and reporting flows.
 - Developed a Next.js/TypeScript e-commerce application with automated unit and end-to-end tests using Vitest and Playwright.
 
-### Software Engineer (Contractual) — Annex GS
-
-Dhaka | Feb 2026 — Jul 2026
-
-- Built workflow automations that replaced manual business processes.
-- Maintained and updated the company's website for a glass and aluminium glazing business.
-- Managed content across the services, product catalog, project portfolio, and blog pages, plus the quotation request and contact pages.
-
 ### Software Engineering Intern — Aurify
 
 Remote · Chicago, USA | Aug 2025 — Jan 2026
 
-- Debugged and fixed issues in a deployed AI coaching web app (React, TypeScript, Tailwind CSS) by tracing data flow between the front end and backend services.
-- Wrote bug reports with reproduction steps for the development team.
-- Contributed fixes through a fork-and-pull-request workflow with maintainer code review.
+- Debugged and improved an AI-powered coaching platform by analyzing frontend-backend data flow and resolving application issues.
+- Investigated Gemini-based feedback workflows to identify bugs and improve application reliability.
+- Implemented fixes using React and TypeScript, documented reproducible bugs, and collaborated through GitHub pull requests and code reviews.
 
 ## Technical Skills
 

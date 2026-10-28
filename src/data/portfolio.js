@@ -6,6 +6,7 @@ export const profile = {
   graduationYear: "2026",
   graduationDate: "May 2026",
   email: "rubayetkabirz@gmail.com",
+  phone: "+8801310131344",
   github: "https://github.com/rubayetkabirzisan",
   linkedin: "https://linkedin.com/in/rubaet-kabir-zishan",
   google_scholar: "https://scholar.google.com/citations?user=JlmQxnAAAAAJ&hl=en",
@@ -27,7 +28,6 @@ export const education = [
     period: "May 2022 — May 2026",
     gpa: "3.27/4.00",
     highlights: [
-      "Thesis: Identification and Translation of Transliterated Chakma Text into Bangla Using Machine Learning and Deep Learning Approaches — defended in 2026. Conference submission to ICCIT 2026 under review; extended journal manuscript in preparation.",
       "Relevant Coursework: Artificial Intelligence, Machine Learning, Algorithms & Complexity, Software Engineering, Computer Networks, Database Systems, Probability & Statistics.",
     ],
   },
@@ -81,10 +81,10 @@ export const publications = [
   },
   {
     category: "Submitted / Under Review",
-    title: "Calibrated DempsterShafer Evidence Fusion for Water Contamination Risk Screening Under Missing Sensor Evidence",
+    title: "Calibrated Dempster Shafer Evidence Fusion for Water Contamination Risk Screening Under Missing Sensor Evidence",
     authors: "Md. Rubaet Kabir Zishan, Fariza Sharin Prova, and Fatin Ilham Chowdhury",
     conference: "International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT)",
-    year: "2026",
+    year: "2027",
     status: "Under review",
     link: null,
   },
@@ -93,7 +93,7 @@ export const publications = [
     title: "SHARP-Retain: A SHAP-Consistency-Driven Multi-Agent Pipeline for Explainability-Aware Autonomous Customer Retention",
     authors: "Md. Rubaet Kabir Zishan, Faiz Al Faisal, and Muhammad Nazrul Islam",
     conference: "International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT)",
-    year: "2026",
+    year: "2027",
     status: "Under review",
     link: null,
   },
@@ -105,7 +105,7 @@ export const publications = [
     year: "2026",
     status: "Defended",
     link: null,
-    description: "Supervisor: Lt Col Muhammad Nazrul Islam, PhD. Conference version submitted to ICCIT 2026 (under review); extended journal manuscript in preparation.",
+    description: "Supervisor: Lt Col Muhammad Nazrul Islam, PhD. Extended journal manuscript in preparation.",
   },
 ]
 
@@ -161,25 +161,14 @@ export const industryExperience = [
     ],
   },
   {
-    role: "Software Engineer (Contractual)",
-    company: "Annex GS",
-    location: "Dhaka",
-    period: "Feb 2026 — Jul 2026",
-    highlights: [
-      "Built workflow automations that replaced manual business processes.",
-      "Maintained and updated the company's website for a glass and aluminium glazing business.",
-      "Managed content across the services, product catalog, project portfolio, and blog pages, plus the quotation request and contact pages.",
-    ],
-  },
-  {
     role: "Software Engineering Intern",
     company: "Aurify",
     location: "Remote · Chicago, USA",
     period: "Aug 2025 — Jan 2026",
     highlights: [
-      "Debugged and fixed issues in a deployed AI coaching web app (React, TypeScript, Tailwind CSS) by tracing data flow between the front end and backend services.",
-      "Wrote bug reports with reproduction steps for the development team.",
-      "Contributed fixes through a fork-and-pull-request workflow with maintainer code review.",
+      "Debugged and improved an AI-powered coaching platform by analyzing frontend-backend data flow and resolving application issues.",
+      "Investigated Gemini-based feedback workflows to identify bugs and improve application reliability.",
+      "Implemented fixes using React and TypeScript, documented reproducible bugs, and collaborated through GitHub pull requests and code reviews.",
     ],
   },
 ]
